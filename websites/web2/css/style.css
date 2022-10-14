@@ -1,0 +1,21 @@
+
+body{
+    background-color: bisque;
+    color: brown;
+}
+h1,h2,h3,h4,h5,h6{
+    background-color: black;
+}
+h2{
+    color: aqua;
+}
+h3{
+    color: coral;
+}
+h4{
+    color: darkgray;
+}
+h5{
+    color: lightslategray;
+}
+
