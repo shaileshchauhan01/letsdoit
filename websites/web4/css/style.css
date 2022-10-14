@@ -1,0 +1,43 @@
+
+body{
+    background-color: grey;
+    color: black;
+}
+table{
+    font-family: 'Times New Roman', Times, serif;
+    border: solid 5px blue;
+    border-collapse: collapse;
+    width: 40%;
+}
+th,td{
+    border: solid 2px red;
+    text-align: left;
+}
+th{
+    width: 50%;
+}
+tr{
+    background-color: aqua;
+}
+td{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: orange;
+}
+th{
+    color: tomato;
+}
+/*
+ol:nth-child(1){
+    font-size: large;
+    text-decoration: dashed;
+}
+tr:nth-child(odd){
+    background-color: grey;
+}
+:nth-col(2n+1){
+    background-color: red;
+}*/
+img{
+    width: 5rem;
+    height:5rem;
+}
