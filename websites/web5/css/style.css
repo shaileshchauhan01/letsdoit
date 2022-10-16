@@ -1,0 +1,39 @@
+table{
+    background-color: grey;
+    color: white;
+    border: solid 2px black;
+    border-collapse: separate;
+    }
+  
+tr{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}  
+th,td{
+    border: solid 5px aqua;
+}
+.row{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: solid 2px black;
+    margin: 0.3rem;
+    display: inline-flex;
+    padding: 0.3rem;
+}
+hr{
+    color: black;
+}
+.column{
+    border: solid 3px black;
+    margin: 0.3rem;
+    padding: 0.5rem;
+    
+}
+.container{
+    background-color: aquamarine;
+    
+    color: blueviolet;
+}
+
+td{
+    border: solid 1px black;
+    
+}
