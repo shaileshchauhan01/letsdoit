@@ -1,0 +1,22 @@
+.wrapper {
+    display: flex;
+  }
+.box1,.box2,.box3{
+    background-color: lightgrey;
+    border: solid 2px lightgrey;
+    margin: 0.1rem;
+    padding: 0.1rem;
+}  
+.wrapper1 {
+    display: inline-block;
+    border: solid 2px black;
+  }
+
+  .wrapper2 {
+    display: flex;
+  }
+  
+  .wrapper2 > div {
+    flex: 1;
+  }
+  

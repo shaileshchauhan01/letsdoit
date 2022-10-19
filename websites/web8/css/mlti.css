@@ -1,0 +1,16 @@
+.container {
+    column-width: 100px;
+  }
+
+  body{
+    background-color: aqua;
+  }
+  p{
+    background-color: bisque;
+  }
+
+  h1{
+    background-color: blueviolet;
+  }
+  
+  

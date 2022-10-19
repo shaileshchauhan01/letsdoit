@@ -1,0 +1,33 @@
+body {
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  p {
+    background-color: lightgreen;
+    border: 2px solid blueviolet;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
+  h1{
+    background-color: lightgreen;
+    display: inline-block;
+  }
+  
+  .positioned {
+    position: relative;
+    top: 30px;
+    left: 30px;
+  }
+
+  .positioned {
+    position: sticky;
+    font-style: italic;
+    background-color: rgba(0, 255, 255, 0.238);
+    top: 30px;
+    left: 30px;
+  }
+  
+  
