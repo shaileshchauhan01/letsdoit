@@ -1,0 +1,81 @@
+/*body{
+    background-color: aquamarine;
+    color: rgb(234, 40, 40);
+}
+
+a:link{
+    color: rgb(16, 16, 16);
+    background-color: rgb(247, 68, 68);
+    font-weight: bolder;
+    font-size: smaller;
+}
+*/
+
+
+
+td,th{
+    border: solid 2px yellow ;
+}
+ 
+
+body{
+    background-color: aquamarine;
+    color: crimson;
+}
+
+
+h1,h3{
+    background-color: rgb(221, 255, 0);
+    color: rgb(9, 8, 9);  
+}
+
+
+#Identity{
+    background-color: darkcyan;
+    
+}
+
+a[href="https://www.google.co.in"]{
+    background-color: yellow;
+    color: black;
+
+}
+
+a:hover{
+    font-size: larger;
+   
+}
+
+a:link{
+    text-decoration: underline;
+}
+
+/* a{
+    background-color: rgb(124, 124, 105);
+    color: rgb(78, 120, 144);
+} */
+
+
+
+
+p::after{
+    content: "Shailesh Chauhan";
+    background-color: darkgray;
+    color: black;
+    font-size: smaller;
+    border: solid 1px ;
+}
+
+article>p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: blueviolet;
+}
+
+p{
+    background-color: aqua;
+}
+
+h1+p{
+    background-color: red;
+}
