@@ -1,0 +1,55 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: aqua;
+    color: brown;
+}
+
+.resistrationform{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+}
+
+.resistrationform h1{
+    text-align: center;
+    font size: 35px;
+}
+
+.resistrationform input{
+    font-size: 13px;
+    padding: 8px 5px;
+    width: 150px;
+    border: 0ch;
+    border-radius: 5px;
+    outline: auto;
+
+}
+
+.resistrationform label{
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+
+.resistrationform button{
+    font-size: 18px;
+    font-weight: bold;
+    color: brown;
+    margin: 10px 0px;
+    padding: 5px 8px;
+    border: 0ch;
+    outline: auto;
+    border-radius: 0%;
+    text-align: center;
+}
+
+.resistrationform button:hover{
+    color: blue
+}
