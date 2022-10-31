@@ -5,8 +5,8 @@ form{
 }
 
 body{
-    background-color: aqua;
-    color: brown;
+    background-color: lightblue;
+    color: black;
 }
 
 .signinform{
@@ -24,7 +24,7 @@ body{
 .signinform button{
    font-weight: bold;
    border-radius: 0%; 
-   color: brown;
+   color: black;
    outline-style: auto;
 }
 

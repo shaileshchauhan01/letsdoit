@@ -5,8 +5,8 @@
 }
 
 body{
-    background-color: aqua;
-    color: brown;
+    background-color: lightblue;
+    color: black;
 }
 
 .resistrationform{
@@ -41,7 +41,7 @@ body{
 .resistrationform button{
     font-size: 18px;
     font-weight: bold;
-    color: brown;
+    color: black;
     margin: 10px 0px;
     padding: 5px 8px;
     border: 0ch;
