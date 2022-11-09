@@ -1,0 +1,44 @@
+*{
+    background-color: #333;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: crimson;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  .jumbotron{
+    color: crimson;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin-top: 15%;
+  }
+
+ footer{
+    color: crimson;
+    text-align: right;
+    font-family: Tahoma,;
+   
+    margin-top: 10%;
+ }
+
