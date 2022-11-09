@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+   
+    <section id="regform">
+
+        <form action="#" method="get" onsubmit="return onButtonClick()">
+
+            <div class="container">
+                <div class="row">
+                    <label class="username" for="userName">User Name</label>
+                    <input class="column" type="text" name="userName" id="userName" >
+                    <span id="errUserName"></span>
+                </div>
+                <div class="row">
+                    <label class="email" for="email">Email</label>
+                    <input class="column" type="email" name="email" id="email" >
+                    <span id="errEmail"></span>
+                </div>
+                <div class="row">
+                    <label class="password" for="password">Password</label>
+                    <input class="column" type="password" name="password" id="password" >
+                    <span id="errPassword"></span>
+                </div>
+                <div>
+                    <button  class="button" >Register</button>
+                </div>
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>

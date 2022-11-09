@@ -1,0 +1,65 @@
+*{
+    background-color: lightsteelblue;
+}
+#regform{
+    border:solid 3px rgb(239, 7, 7);
+    display: block;  
+    background-color: lightgoldenrodyellow;  
+    color: black;
+    width: 40%;
+    margin-left: 400px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 50px;
+    font-size: x-large;
+}
+
+.container{
+    display: block;    
+}
+
+.row{
+    width: 70%;
+    padding: 20px;  
+    border: solid 3px black;
+    margin-left: 70px;
+    margin-top: 22px;
+}
+
+.column{
+    width: max-content;  
+    padding: 5px; 
+    margin-right: 1%;
+    font-size: large;
+    background-color: rgb(255, 229, 250);
+}
+
+.username{
+    width: max-content;  
+    padding: 5px; 
+    font-size: large;
+    margin-right: 30px;    
+}
+
+.email{
+    width: max-content;  
+    padding: 5px; 
+    font-size:large;
+    margin-right: 80px;    
+}
+
+.password{
+    width: max-content;  
+    padding: 5px; 
+    font-size:large;
+    margin-right: 80px;    
+}
+
+.button{
+    background-color: lightcoral;
+    padding: 5px; 
+    font-size: x-large;
+    margin-left: 30%;
+    margin-top: 22px;
+    width: 40%;
+}
