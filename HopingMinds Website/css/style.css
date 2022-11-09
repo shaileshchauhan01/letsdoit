@@ -1,0 +1,392 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.head {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/bgimg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(56, 55, 55);
+}
+
+.logo {
+    color: rgb(69, 159, 13);
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span {
+    color: rgb(31, 221, 31);
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px 20px;
+    text-transform: uppercase;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: rgb(31, 221, 31);
+    transition: .5;
+}
+
+.btn {
+    background-color: rgb(31, 221, 31);
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 5px 8px;
+    border-radius: 10px;
+    transition: transform .5s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.heading {
+    position: absolute;
+    top: 40%;
+    left: 28%;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 65px;
+}
+
+p {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.services {
+    background: lightgrey;
+    width: 100%;
+    padding: 5% 0;
+}
+
+.title h2 {
+    color: darkgreen;
+    font-size: 40px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    margin: 0 80px;
+}
+
+.card {
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: white;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.card1 {
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: lightgreen;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0;
+    color: black;
+}
+
+h3 {
+    color: black;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.para p {
+    color: black;
+    font-size: 15px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.para1 p {
+    color: white;
+    font-size: 15px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+
+
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+.flip-card-back {
+    background-color: transparent;
+    color: white;
+    transform: rotateY(180deg);
+    width: 100%;
+}
+
+
+
+
+.horz {
+    background-color: rgb(56, 55, 55);
+    display: flex;
+    align-items: center;
+    height: 150px;
+    padding-top: 12px;
+    padding-left: 12%;
+    padding-right: 5%;
+}
+
+.paras {
+    padding: 35px 35px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.paras p {
+    text-align: center;
+    color: white;
+    font-size: 17px;
+}
+
+.paras h3 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.tech {
+    width: 100%;
+    padding: 0px 100px;
+}
+
+.tech img {
+    height: auto;
+    width: 430px;
+}
+
+.about-text {
+    width: 550px;
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tech {
+    padding: 3%;
+    margin: 3%;
+}
+
+.tech h5 {
+    font-size: 25px;
+    text-align: left;
+}
+
+.about-text {
+    text-align: left;
+}
+
+h5 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.rslt {
+    text-align: center;
+}
+
+
+.oihm {
+    background-color: rgb(56, 55, 55);
+    padding-top: 2%;
+    color: white;
+}
+
+.cards {
+    background-color: rgb(56, 55, 55);
+    width: 1000px;
+    padding-left: 15%;
+}
+
+.cards ul {
+    color: white;
+    text-align: left;
+}
+
+.cards h3 {
+    padding-top: 1%;
+    color: white;
+    text-align: left;
+}
+
+.pahra ul {
+    color: rgb(31, 221, 31);
+    text-align: left;
+}
+
+.pahra h3 {
+    padding-top: 1%;
+    text-align: left;
+    color: rgb(31, 221, 31);
+}
+
+.end {
+    background-color: lightgreen;
+}
+
+.end h3 {
+    padding-top: 70px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.end p {
+    font-size: 20px;
+}
+
+.end h1 {
+    font-size: 25px;
+    padding-bottom: 40px;
+}
+
+.btn {
+    border: 2px solid rgb(56, 55, 55);
+}
+
+.final {
+    background-color: rgb(56, 55, 55);
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    margin: 0 80px;
+}
+
+.cardz {
+    padding-left: 100px;
+    padding-right: 15px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    width: 1000px;
+    text-align: center;
+}
+
+.final p {
+    padding: 20px 20px;
+    text-align: left;
+}
+
+.pra {
+    text-align: left;
+    color: white;
+}
+
+.pra a{
+    color: white;
+    font-weight: lighter;
+}
+
+.footer h6{
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}

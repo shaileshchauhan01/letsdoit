@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+nav{
+    background-color: rgb(48, 47, 47);
+    height: 72px;
+    width: 100%;
+}
+
+label.logo{
+    color: rgb(86, 154, 86);
+    font-size: 35px;
+    line-height: 60px;
+    padding: 100% 5%;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    margin: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 30px;
+    margin: 1px 5px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+nav ul li a{
+    color: rgb(86, 154, 86);
+    padding: 7px 13px;
+    border-radius: 3px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+a:hover{
+    background: white;
+    transition: .20s;
+}
+
+nav ul button{
+    float: right;
+    margin: 0px;
+    background-color: rgb(99, 154, 168);
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+img{
+    width: 1600px;
+    height: 1000px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:40px;
+    text-align: center;
+  }
+
+ .centered p{
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+ } 
+
+h3{
+    font-weight: bold;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.container row col-sm-2 p {
+    border: 1px black;
+}
+
+
+/* .services{
+    background: beige;
+    width: 100%;
+    padding: 100% 0;
+}
+
+.title h2{
+    color: darkgreen;
+    font-size: 40px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: lightblue;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0;
+    color: black;
+}
+
+h3{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.para p{
+    color: white;
+    font-size: 15px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.tech{
+	width: 100%;
+	padding: 0px 100px;
+}
+
+.tech img{
+	height: auto;
+	width: 430px;
+}
+
+.about-text{
+	width: 550px;
+}
+
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}     */
