@@ -24,10 +24,41 @@ nav {
 }
 
 .logo {
-    color: rgb(69, 159, 13);
-    font-size: 35px;
+    color:  #00A86B;
+    font-size: 30px;
     letter-spacing: 1px;
     cursor: pointer;
+    transform-style: preserve-3d;
+    transform: rotateX(0deg);
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        transform: rotateX(-0deg) rotateY(0deg);
+    }
+    0%{
+        transform: rotateX(-0deg) rotateY(360deg);
+    }
+}
+
+.logo div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+}
+
+.logo div span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    transform: rotateX(calc(90deg * var(--i)) translateZ(150px));
 }
 
 span {
@@ -289,6 +320,11 @@ h5 {
     text-align: center;
 }
 
+.rslt h5{
+    text-align: center;
+    color: rgb(31, 221, 31);
+    font-size: 25px;
+}
 
 .oihm {
     background-color: rgb(56, 55, 55);
@@ -350,14 +386,15 @@ h5 {
 
 .final {
     background-color: rgb(56, 55, 55);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .box {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 400px;
-    margin: 0 80px;
+    min-height: 300px;
+    margin: 0 10x;
 }
 
 .cardz {
@@ -370,6 +407,10 @@ h5 {
     text-align: center;
 }
 
+.final pra{
+    padding-top: 5px;
+}
+
 .final p {
     padding: 20px 20px;
     text-align: left;
@@ -380,13 +421,22 @@ h5 {
     color: white;
 }
 
-.pra a{
+.pra a {
     color: white;
     font-weight: lighter;
 }
 
-.footer h6{
+.footer h6 {
     text-align: center;
     color: white;
     padding-bottom: 20px;
+}
+
+.pra p{
+    word-spacing: 5rem;
+}
+
+.pra b{
+    font-size: 13px;
+    font-weight: lighter;
 }
